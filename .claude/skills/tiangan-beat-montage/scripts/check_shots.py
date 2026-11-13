@@ -42,11 +42,6 @@ def frames(path, k=3):
         out.append(np.frombuffer(raw, np.uint8).reshape(36, 64, 3).astype(float))
     return out
 
-def dhash(img):
-    g = img.mean(2)
-    small = np.array(Image.fromarray(g.astype(np.uint8)).resize((9, 8)), float)
-    return (small[:, 1:] > small[:, :-1]).flatten()
-
 def hist(img):
     """Hue/saturation histogram of the lit pixels only. The grade crushes shadows to black, so
     counting dark pixels would make every pair look alike."""
@@ -56,9 +51,15 @@ def hist(img):
     h, _, _ = np.histogram2d(hsv[..., 0][m], hsv[..., 1][m], bins=[12, 4], range=[[0, 256], [0, 256]])
     h = h.flatten(); return h / h.sum()
 
+def struct(img):
+    """16x9 grayscale layout, mean-removed and unit-length: dot product = layout correlation."""
+    g = np.asarray(Image.fromarray(img.astype(np.uint8)).convert('L').resize((16, 9), Image.BILINEAR), float).flatten()
+    g = g - g.mean(); n = np.linalg.norm(g)
+    return g / n if n > 0 else g
+
 def similar(fa, fb):
-    """Smallest hash distance and highest histogram correlation over all frame pairs."""
-    hd = min(int((dhash(x) != dhash(y)).sum()) for x in fa for y in fb)
+    """Highest layout correlation and highest hue-histogram correlation over all frame pairs."""
+    hd = max(float(struct(x) @ struct(y)) for x in fa for y in fb)
     hc = max([float(np.corrcoef(hx, hy)[0, 1]) for hx in map(hist, fa) for hy in map(hist, fb)
               if hx is not None and hy is not None] or [0.0])
     return hd, hc
@@ -69,11 +70,13 @@ if len(sys.argv) > 2:
     F = [frames(p) for p in segs]
     for i in range(3, len(S)):
         hd, hc = similar(F[i - 1], F[i])
-        # dHash distance < 14 of 64 means the same layout; very high color correlation plus moderate
-        # layout similarity means the same kind of picture (e.g. two green look-up forest shots).
-        if hd < 14 or (hc > 0.9 and hd < 34):
+        # A repeat is the same layout AND the same colors. Calibrated on real cases:
+        #   repeats: 乙木 v3 green look-up forests (layout 0.96, color 0.79), 丙火 two orange plumes on a
+        #   dark sky (0.83, 0.86). Not repeats: same color segment with different pictures (sun surface
+        #   vs sun disk: 0.58, 1.00), same horizon layout in different colors (0.85, 0.05).
+        if hd >= 0.9 or (hd >= 0.75 and hc >= 0.5):
             errors.append(f'shots {i - 1} ({S[i - 1]["clip"]}) and {i} ({S[i]["clip"]}) look alike: '
-                          f'hash distance {hd}, color correlation {hc:.2f}')
+                          f'layout correlation {hd:.2f}, color correlation {hc:.2f}')
     W, H, cols = 384, 216, 6
     rows = (len(S) + cols - 1) // cols
     im = Image.new('RGB', (W * cols, (H + 22) * rows)); dr = ImageDraw.Draw(im)

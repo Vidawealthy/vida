@@ -24,3 +24,7 @@ Coverr 缩略图：`https://cdn.coverr.co/videos/<slug>/thumbnail?width=385`。
 ## 找不到合适素材时
 
 免费站的中国风素材很少（例如牡丹园、紫藤、元阳梯田）。这时候别用不对题的素材凑数，直接告诉用户缺哪几类画面，请用户提供素材文件，或者让用户去 Vecteezy 用免费账号下载无水印原片再发过来。
+
+## NASA（太阳、太空画面，公有领域，无水印）
+
+`https://images-api.nasa.gov/search?q=solar%20flare&media_type=video` 搜索；`https://images-api.nasa.gov/asset/<nasa_id>` 列出文件，下载 `~large.mp4`（1080p）。片头片尾和中间常有文字标注，用 `in` 截取纯画面段落，并在镜头预览图里确认没有字。
