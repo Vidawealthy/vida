@@ -51,10 +51,10 @@ python3 scripts/beats.py BGM.mp3 WORK/plan.json
 ```bash
 python3 scripts/footage.py search WORK mixkit flowers,cherry-blossom,lotus,field,meadow --pages 2
 python3 scripts/footage.py search WORK coverr "flower field,peony,lavender"
-python3 scripts/footage.py sheets WORK --exclude "tree,forest,bamboo,jungle,roots"
+python3 scripts/footage.py sheets WORK --include "flower,blossom,tulip,lavender,meadow,field" --exclude "tree,forest,bamboo,jungle,roots"
 ```
 
-逐张看 `WORK/sheets/` 里的预览图，按画面挑，不要按素材名挑。挑好后：
+`--include` 只留名字里带这些词的素材（素材库上千条时必用，不然要翻几十页），`--exclude` 去掉不对题的。逐张看 `WORK/sheets/` 里的预览图，按画面挑，不要按素材名挑。挑好后：
 
 ```bash
 python3 scripts/footage.py get WORK CLIPS k12440 k48889 c17 ...
