@@ -358,7 +358,7 @@
   "imported_through_chapter": 0,
   "last_committed_chapter": 11,
   "schema_version": 4,
-  "state_revision": 13,
+  "state_revision": 16,
   "timeline": {
     "E001": {
       "characters": [
@@ -590,16 +590,16 @@
       "target": 2300
     },
     "10": {
-      "actual": 2172,
-      "body_sha256": "6f538e8a00dfdce578c6e79447b9e39c36d8e3e98719e8273de5e5497eb4a07c",
+      "actual": 2182,
+      "body_sha256": "54fb9908355cf2d5f201eaeafe34b141952af6863da49dc0503009932603b3ac",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
       "target": 2300
     },
     "11": {
-      "actual": 2443,
-      "body_sha256": "b64d5406e8284c99d94a8f1ae9f7ebf26d0b100a24fb5956d86018350c4b79ce",
+      "actual": 2451,
+      "body_sha256": "15c4ab9ced4878a3aba7c650adffccc6b7cf34bfe600f0fbb157cf73b0330f2a",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
@@ -662,8 +662,8 @@
       "target": 2300
     },
     "9": {
-      "actual": 2438,
-      "body_sha256": "1422f742c2a4e4895c3dd2cfc5164aba331d57e45c546eec93f69a7ab9f2bc2c",
+      "actual": 2439,
+      "body_sha256": "9e47848edac318ace1060dd5f3d0eb388cd29a74dd7632a848dd7d8e9bdff63a",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
