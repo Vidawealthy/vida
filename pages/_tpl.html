@@ -1,0 +1,138 @@
+<title>财库 · 片场</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&display=swap">
+<style>
+/* Layout: one narrow column of five numbered takes, each = prompt + copy + upload slot. Order is real: clips are shot 1→5. */
+:root{
+  --bg:#f3f1ec; --card:#fbfaf7; --ink:#24211c; --muted:#6f685d; --line:#ddd6c8;
+  --seal:#a8322a; --gold:#9a7428; --ok:#3f7a4e;
+  --serif:"Noto Serif SC","Songti SC","STSong",serif;
+  --sans:-apple-system,"PingFang SC","Helvetica Neue",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#191714; --card:#221f1b; --ink:#ece6da; --muted:#a39a8a; --line:#38332c;
+  --seal:#d0574c; --gold:#d2ab5c; --ok:#79b98a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#191714; --card:#221f1b; --ink:#ece6da; --muted:#a39a8a; --line:#38332c;
+  --seal:#d0574c; --gold:#d2ab5c; --ok:#79b98a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:22px}
+header{display:flex;gap:14px;align-items:flex-start}
+.seal{flex:none;width:46px;height:46px;border:2px solid var(--seal);color:var(--seal);border-radius:4px;
+  font-family:var(--serif);font-weight:900;font-size:17px;line-height:19px;display:grid;place-items:center;text-align:center;letter-spacing:1px}
+h1{font-family:var(--serif);font-weight:900;font-size:26px;margin:0;line-height:1.25;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0}
+.how{color:var(--muted);font-size:14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:10px;margin:0}
+.progress{font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px}
+.progress b{color:var(--ink)}
+.take{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.take.done{border-color:var(--ok)}
+.row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.no{font-family:var(--serif);font-weight:900;font-size:20px;color:var(--gold);font-variant-numeric:tabular-nums}
+.scene{font-weight:600}
+.who{font-size:13px;color:var(--muted)}
+.lines{font-family:var(--serif);font-size:16px;margin:0}
+details summary{cursor:pointer;color:var(--muted);font-size:13px}
+pre{white-space:pre-wrap;word-break:break-word;font-family:var(--mono);font-size:12px;line-height:1.5;
+  background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px;margin:8px 0 0;max-height:260px;overflow:auto}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button,.up{font:inherit;font-size:15px;font-weight:600;border-radius:8px;padding:10px 16px;cursor:pointer;border:1px solid var(--ink)}
+button{background:var(--ink);color:var(--bg)}
+.up{background:transparent;color:var(--ink);display:inline-flex;align-items:center}
+.up input{display:none}
+button:focus-visible,.up:focus-within{outline:2px solid var(--gold);outline-offset:2px}
+.status{font-size:13px;color:var(--muted)}
+.status.ok{color:var(--ok)} .status.err{color:var(--seal)}
+video{width:100%;max-width:100%;border-radius:6px;background:#000}
+.title{text-align:center;font-family:var(--serif);font-weight:900;color:var(--gold);font-size:18px;letter-spacing:2px;margin:0}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="seal">财<br>库</div>
+    <div>
+      <h1>钱为什么存不住</h1>
+      <p class="sub">五行短剧 · 贪合忘冲 · 5 段</p>
+    </div>
+  </header>
+  <p class="how">按顺序来：点「复制提示词」→ 粘进 Muse 生成 → 回到这里点「上传视频」。5 段都传完，告诉 Claude 一声，后面的拼接、1.4 倍速、字幕都交给它。</p>
+  <div class="progress" id="progress"></div>
+  <div id="takes" style="display:flex;flex-direction:column;gap:14px"></div>
+  <p class="title">财库逢冲钱难守，冲神遇合便忘冲。</p>
+</div>
+
+<script>
+const CLIPS = __CLIPS__;
+const state = {};           // n -> {asset, name}
+let assets = null, db = null;
+
+function render(){
+  const box = document.getElementById("takes"); box.textContent = "";
+  let done = 0;
+  for (const c of CLIPS){
+    const s = state[c.n]; if (s) done++;
+    const el = document.createElement("section"); el.className = "take" + (s ? " done" : "");
+    el.innerHTML = `
+      <div class="row"><span class="no">${String(c.n).padStart(2,"0")}</span><span class="scene"></span><span class="who"></span></div>
+      <p class="lines"></p>
+      <details><summary>看提示词全文</summary><pre></pre></details>
+      <div class="actions">
+        <button type="button" id="copy${c.n}">复制提示词</button>
+        <label class="up" id="uplabel${c.n}">${s ? "重新上传" : "上传视频"}<input type="file" id="file${c.n}" accept="video/mp4,video/webm,video/quicktime,video/*"></label>
+        <span class="status" id="st${c.n}"></span>
+      </div>`;
+    el.querySelector(".scene").textContent = c.scene;
+    el.querySelector(".who").textContent = c.who;
+    el.querySelector(".lines").textContent = c.lines;
+    el.querySelector("pre").textContent = c.prompt;
+    const st = el.querySelector(".status");
+    if (s){ st.textContent = "已上传 ✓ " + (s.name || ""); st.className = "status ok";
+      const v = document.createElement("video"); v.controls = true; v.playsInline = true; v.preload = "metadata"; v.src = "/_blob/" + s.asset; el.appendChild(v); }
+    if (!assets) el.querySelector(".up").hidden = true;
+    el.querySelector("button").onclick = () => copy(c, st);
+    el.querySelector("input").onchange = e => upload(c, e.target.files[0], st);
+    box.appendChild(el);
+  }
+  document.getElementById("progress").innerHTML = `已上传 <b>${done}</b> / 5`;
+}
+
+async function copy(c, st){
+  try { await navigator.clipboard.writeText(c.prompt); st.textContent = "已复制，去 Muse 粘贴"; st.className = "status ok"; }
+  catch { const pre = document.querySelectorAll("pre")[c.n-1]; pre.parentElement.open = true;
+    const r = document.createRange(); r.selectNodeContents(pre); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+    st.textContent = "已选中全文，长按拷贝"; st.className = "status"; }
+}
+
+async function upload(c, file, st){
+  if (!file) return;
+  if (file.size > 20*1024*1024){ st.textContent = "超过 20MB，传不上去。告诉 Claude，换个办法"; st.className = "status err"; return; }
+  st.textContent = "上传中…"; st.className = "status";
+  let type = file.type; if (!["video/mp4","video/webm"].includes(type)) type = "video/mp4";
+  try {
+    const r = await assets.upload(file, {type});
+    state[c.n] = {asset: r.id, name: file.name};
+    if (db) await db.doc("clips/c" + c.n).set({n: c.n, asset: r.id, name: file.name, at: new Date().toISOString()});
+    render();
+  } catch (e) {
+    st.className = "status err";
+    st.textContent = e && e.code === "unsupported_type" ? "格式不支持，请导出成 MP4 再传" :
+                     e && e.code === "too_large" ? "文件太大（上限 20MB）" : "上传失败，再试一次";
+  }
+}
+
+render();
+(async () => {
+  try { assets = await claude.use("assets"); } catch {}
+  try { db = await claude.use("db"); } catch {}
+  if (db){
+    db.collection("clips").onSnapshot(snap => {
+      for (const d of snap.docs){ const v = d.data(); if (v && v.n && v.asset) state[v.n] = {asset: v.asset, name: v.name}; }
+      render();
+    }, () => render());
+  }
+  render();
+})();
+</script>
