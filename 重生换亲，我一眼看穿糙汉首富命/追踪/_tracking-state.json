@@ -360,7 +360,7 @@
   "imported_through_chapter": 0,
   "last_committed_chapter": 14,
   "schema_version": 4,
-  "state_revision": 19,
+  "state_revision": 21,
   "timeline": {
     "E001": {
       "characters": [
@@ -629,6 +629,20 @@
       "reveal_status": "已揭示",
       "story_time": "1983年春，换亲后第四十四天（头一个交货的集）",
       "updated_chapter": 14
+    },
+    "E018": {
+      "characters": [
+        "宋青梅",
+        "周文斌"
+      ],
+      "first_recorded_chapter": 13,
+      "id": "E018",
+      "objective_fact": "宋青梅过门，嫁进乡里周家",
+      "reader_knowledge": "第13章周文斌说「你姐都过门了」才带出",
+      "reveal_chapter": 13,
+      "reveal_status": "已揭示",
+      "story_time": "1983年春，换亲后约第三十六天",
+      "updated_chapter": 13
     }
   },
   "wordcount_records": {
@@ -658,15 +672,15 @@
     },
     "12": {
       "actual": 2733,
-      "body_sha256": "c436a81dcc3232ddcad673e11d3e8c79259b4312a830072c8972f8c506b6aafd",
+      "body_sha256": "87d892379fce328d738ea794baf4080342f3f1e88bdf5e968a5768160e65e006",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
       "target": 2500
     },
     "13": {
-      "actual": 2258,
-      "body_sha256": "5e02918f33656401b083806b56404f13cae6f9b317d970e173bb42c155246b5c",
+      "actual": 2256,
+      "body_sha256": "b731a917a52af3583dee220b97bce0fd8712b105a34ef8f41009da674dbade80",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
