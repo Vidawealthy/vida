@@ -320,7 +320,7 @@
   "imported_through_chapter": 0,
   "last_committed_chapter": 8,
   "schema_version": 4,
-  "state_revision": 8,
+  "state_revision": 10,
   "timeline": {
     "E001": {
       "characters": [
@@ -539,8 +539,8 @@
       "target": 2300
     },
     "6": {
-      "actual": 2415,
-      "body_sha256": "f8748633e3534406513eec54fce89dcb0ee835f24e0e7f5e33bd12b8dad882c9",
+      "actual": 2435,
+      "body_sha256": "141288cee479544eacaeaa1c4681b04a5b03a4b1a67181497b836efed7fe8d2e",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
@@ -555,8 +555,8 @@
       "target": 2300
     },
     "8": {
-      "actual": 2306,
-      "body_sha256": "8647dbf397f4094c51fb2844ed40437d35e777130e35fd96b7f998741a224a18",
+      "actual": 2328,
+      "body_sha256": "9c20d93594d7e0b93e3352e24fdeaea827c20d7d679969f41cf34831a3144a04",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
