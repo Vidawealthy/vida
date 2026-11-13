@@ -1,9 +1,129 @@
 {
   "book_title": "重生换亲，我一眼看穿糙汉首富命",
-  "characters": {},
+  "characters": {
+    "周文斌": {
+      "abilities_resources": [
+        "二八自行车、中山装"
+      ],
+      "goal": "保体面",
+      "identity": "宋青梅刚定亲的对象，体面的「金龟婿」",
+      "knowledge": [],
+      "location": "宋家院门口",
+      "open_threads": [],
+      "relationships": [
+        "宋青梅：刚定亲",
+        "宋青禾：原先口头说给的，被落面子"
+      ],
+      "state": "被宋青禾当众说「他我不要」落了面子，记了一笔"
+    },
+    "宋青梅": {
+      "abilities_resources": [
+        "娘偏疼她"
+      ],
+      "goal": "攥牢周文斌这门体面亲事",
+      "identity": "宋青禾的姐姐，娘的心头肉",
+      "knowledge": [
+        "前世合谋换亲（未揭）"
+      ],
+      "location": "宋家院门口，挽着周文斌",
+      "open_threads": [],
+      "relationships": [
+        "周文斌：刚定亲",
+        "宋青禾：抢了她口头说下的亲"
+      ],
+      "state": "刚和周文斌定亲，以为赢了妹妹，头顶红光转灰"
+    },
+    "宋青禾": {
+      "abilities_resources": [
+        "天眼：看见别人头顶气运颜色，看不见自己的",
+        "前世记忆到换亲后两年多",
+        "身无分文"
+      ],
+      "goal": "当着支书和娘家断干净，跟陆长庚走",
+      "identity": "宋家二姑娘，19岁，重生回换亲当天、开了天眼",
+      "knowledge": [
+        "赵铁柱打死前妻的细节（来路不对外说）",
+        "前世听说陆长庚被抓走"
+      ],
+      "location": "宋家院门口，披着陆长庚的旧军装棉袄",
+      "open_threads": [
+        "请支书来算账断亲"
+      ],
+      "relationships": [
+        "陆长庚：刚当众认下的男人",
+        "娘、哥：撕破脸",
+        "姐姐：让出周文斌"
+      ],
+      "state": "和娘当众撕破脸，人已挑定，娘家堵门要彩礼"
+    },
+    "王桂芬": {
+      "abilities_resources": [
+        "孝道和「白养你十九年」压人"
+      ],
+      "goal": "要彩礼，不放二丫头白走",
+      "identity": "宋青禾的娘",
+      "knowledge": [
+        "前世知赵铁柱打死前妻（未揭）"
+      ],
+      "location": "宋家院门口，坐地嚎",
+      "open_threads": [
+        "彩礼、老刘头"
+      ],
+      "relationships": [
+        "二丫头：撕破脸",
+        "宋耀祖、宋青梅：偏疼"
+      ],
+      "state": "换亲黄了，扬言把她卖给老刘头"
+    },
+    "赵铁柱": {
+      "abilities_resources": [
+        "凶、好酒"
+      ],
+      "goal": "[待补充]",
+      "identity": "赵家洼人，换亲对象，打死过前妻",
+      "knowledge": [],
+      "location": "被族叔拖上赵家马车走了",
+      "open_threads": [
+        "前妻娘家可能追究"
+      ],
+      "relationships": [
+        "宋青禾：结仇",
+        "赵春花：妹妹"
+      ],
+      "state": "前妻的事被当众揭开、换亲作废，结仇"
+    },
+    "陆长庚": {
+      "abilities_resources": [
+        "力气大，一拧就制住赵铁柱",
+        "家里两间漏风土房、一屁股债"
+      ],
+      "goal": "护住她，把这门亲接下来",
+      "identity": "退伍回乡的穷汉，赶车打猎扛活，全村最穷的光棍",
+      "knowledge": [],
+      "location": "宋家院门口，站在她前面半步",
+      "open_threads": [
+        "赵家欠的车钱"
+      ],
+      "relationships": [
+        "宋青禾：当众应下的媳妇",
+        "妹妹小满：在家"
+      ],
+      "state": "被赵家撂下没拿车钱，当众说「往后她的事，就是我的事」"
+    }
+  },
   "context": {
-    "active_character_names": [],
-    "continuity_risks": [],
+    "active_character_names": [
+      "宋青禾",
+      "陆长庚",
+      "王桂芬",
+      "宋青梅",
+      "周文斌",
+      "赵铁柱"
+    ],
+    "continuity_risks": [
+      "赵家赖掉陆长庚的迎亲车钱没给，算陆家一笔小账",
+      "老刘头（山后头、五十多、死了老婆）和赵春花设定里要卖给的「山那边老光棍」是两个人，别混"
+    ],
     "long_term_constraints": [
       "天眼只让宋青禾看见气运颜色，怎么破局、拍板永远靠她自己；她看不见自己的命",
       "上一世的惨只用闪回点到，不展开写虐；女主每章都主动出手",
@@ -11,21 +131,142 @@
       "前世真相（娘明知赵铁柱打死前妻仍收钱换亲，主意是姐姐出的）第3卷前只埋不点破"
     ],
     "next_chapter_commitments": [
-      "换亲当天：宋青禾重生开天眼，当众揭穿赵铁柱、挑陆长庚"
+      "支书进院：娘当众要彩礼，她立字据断亲，一分彩礼不要、往后一分不给",
+      "娘扬言把她送给老刘头，断亲时一并了结",
+      "陆长庚接着护在明处"
     ],
     "position": {
-      "scene": "宋家沟宋家",
-      "story_time": "1983年开春，换亲当天早上",
+      "scene": "宋家沟宋家院门口",
+      "story_time": "1983年开春，换亲当天上午",
       "volume": "第一卷·换亲当天，我挑了赶车的",
       "volume_start_chapter": 1
     },
-    "recent_chapters": []
+    "recent_chapters": [
+      {
+        "chapter": 1,
+        "summary": "宋青禾重生回换亲当天开了天眼，当众说出赵铁柱前妻落井细节和两百块封口钱，赵铁柱露凶相，换亲作废；她把周文斌让给姐姐，亲口挑了赶车的陆长庚，他披衣当众认她；娘坐地要彩礼、哥哥扁担堵门，她要请支书算账。"
+      }
+    ]
   },
-  "foreshadow": {},
+  "foreshadow": {
+    "F001": {
+      "id": "F001",
+      "importance": "高",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "陆长庚头顶金光冲天，她挑他那一刻又亮一截，她以为是他自己的首富命",
+      "updated_chapter": 1
+    },
+    "F002": {
+      "id": "F002",
+      "importance": "高",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "陆长庚金光正中一道细黑线，她认定是前世「陆长庚被抓走」那一劫",
+      "updated_chapter": 1
+    },
+    "F003": {
+      "id": "F003",
+      "importance": "高",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "周文斌金光底下缠着几缕黑气；被她当众说「他我不要」后看她的一眼带阴",
+      "updated_chapter": 1
+    },
+    "F004": {
+      "id": "F004",
+      "importance": "中",
+      "planned_resolution_chapter": 12,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "她当众说出刘秀兰落井：井台冰上有血、后脑勺破、棉鞋落在院门口、赵家送刘家峪两百块封口",
+      "updated_chapter": 1
+    },
+    "F005": {
+      "id": "F005",
+      "importance": "高",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "娘听见「打死前妻」第一个喊胡说、脸刷白；姐姐脱口「二丫皮实，哪那么容易——」又掐住",
+      "updated_chapter": 1
+    },
+    "F012": {
+      "id": "F012",
+      "importance": "中",
+      "planned_resolution_chapter": 11,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "赵春花头顶灰里夹黑，缩在赵家车厢角落回头看了宋青禾一眼",
+      "updated_chapter": 1
+    }
+  },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 0,
+  "last_committed_chapter": 1,
   "schema_version": 4,
-  "state_revision": 0,
-  "timeline": {},
-  "wordcount_records": {}
+  "state_revision": 1,
+  "timeline": {
+    "E001": {
+      "characters": [
+        "赵铁柱",
+        "宋青禾"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E001",
+      "objective_fact": "赵铁柱酒后打前妻刘秀兰，她死在赵家院井里；井台冰上有血，棉鞋落在院门口后被烧；赵家送刘家峪两百块封口",
+      "reader_knowledge": "宋青禾当众说出，赵铁柱脱口「你咋知道」",
+      "reveal_chapter": 1,
+      "reveal_status": "部分揭示",
+      "story_time": "1982年腊月二十三小年夜",
+      "updated_chapter": 1
+    },
+    "E002": {
+      "characters": [
+        "宋青禾",
+        "王桂芬",
+        "宋青梅",
+        "赵铁柱"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E002",
+      "objective_fact": "上一世她被换进赵家挨打两年多死在井边；娘明知赵铁柱打死前妻仍收钱换亲，主意是姐姐出的",
+      "reader_knowledge": "只知她上一世被打死；娘和姐姐知情只见娘脸白、姐姐半句「二丫皮实」",
+      "reveal_chapter": 1,
+      "reveal_status": "部分揭示",
+      "story_time": "上一世，换亲后两年多",
+      "updated_chapter": 1
+    },
+    "E003": {
+      "characters": [
+        "宋青禾",
+        "陆长庚",
+        "王桂芬",
+        "宋青梅",
+        "周文斌",
+        "赵铁柱",
+        "赵春花"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E003",
+      "objective_fact": "宋青禾重生开天眼，当众揭穿赵铁柱，换亲作废；宋青梅与周文斌定亲；宋青禾当众挑陆长庚，陆长庚应下",
+      "reader_knowledge": "同客观事实；全村只当她不知从哪听来的，没人知道天眼",
+      "reveal_chapter": 1,
+      "reveal_status": "已揭示",
+      "story_time": "1983年开春，换亲当天早上",
+      "updated_chapter": 1
+    }
+  },
+  "wordcount_records": {
+    "1": {
+      "actual": 2464,
+      "body_sha256": "e03c27a9b3a38a4383f401a7afc74a15a0f8b592af2a1b16d4f469ce6a7cb658",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    }
+  }
 }
