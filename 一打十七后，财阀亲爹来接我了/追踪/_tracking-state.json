@@ -24,10 +24,10 @@
         "偏爱系统Lv1，偏爱值5200",
         "散打卡精通（体力差）",
         "美貌点3未用",
-        "头奖号码，周四21:15开奖",
-        "家当37.5元，奖金5000下周发"
+        "头奖彩票（税后四千万）藏手机壳背面",
+        "现金8块，奖金5000下周发"
       ],
-      "goal": "买下头奖彩票并藏住秘密，周六回家拿身份证",
+      "goal": "周六回家拿回身份证，匿名兑奖",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
@@ -35,8 +35,8 @@
       ],
       "location": "临大3栋406",
       "open_threads": [
-        "彩票怎么买怎么藏",
-        "周六回家"
+        "身份证锁在王秀芬饼干盒",
+        "柜台男生记住了她的号码"
       ],
       "relationships": [
         "周小满：好感85，死心塌地",
@@ -45,7 +45,7 @@
         "王秀芬：-70，被挂电话",
         "校长40、辅导员30"
       ],
-      "state": "见义勇为被表彰，全校大姐大，和养母撕破脸"
+      "state": "中了税后四千万的头奖，只有她和偏偏知道"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -65,6 +65,24 @@
         "江耀祖：偏心儿子"
       ],
       "state": "第一次被女儿挂电话，命她周六回家"
+    },
+    "程野": {
+      "abilities_resources": [
+        "无"
+      ],
+      "goal": "不明",
+      "identity": "西郊投注站程奶奶的孙子，寸头眉骨带疤（本章未露名）",
+      "knowledge": [
+        "她的号码和手腕疤"
+      ],
+      "location": "西郊投注站",
+      "open_threads": [
+        "投注站出了一等奖"
+      ],
+      "relationships": [
+        "江稚鱼：好感0"
+      ],
+      "state": "记住了戴口罩买生日号5倍的女生和她手腕的疤"
     },
     "赵婧瑶": {
       "abilities_resources": [
@@ -109,8 +127,8 @@
       "散打卡只给会不给力气，打完脱力",
       "闪回里原主的养母一律叫「她妈」，不暗示不是亲妈",
       "心声体验卡已用完（Lv2才解锁）；美貌点3到账未用",
-      "家当37.5元=饭卡19.5+现金18；奖金5000下周发，王秀芬要她周六交回",
-      "原主左手腕疤：七岁考第二被衣架抽；原主奶茶店打工钱全给江耀祖"
+      "原主左手腕疤：七岁考第二被衣架抽；原主奶茶店打工钱全给江耀祖",
+      "票藏手机壳背面；现金剩8块；奖金5000下周发，王秀芬要她周六交回"
     ],
     "long_term_constraints": [
       "爽点要落在旁人反应链上（震惊→改口→讨好或害怕），不能只靠系统播报",
@@ -119,11 +137,11 @@
       "不写真实品牌、真实人物"
     ],
     "next_chapter_commitments": [
-      "她借周小满鸭舌帽变装，去最远的西郊投注站买5倍，付十块现金；柜台寸头男生记住号码和手腕疤；周四开奖全中，税后四千万；身份证锁在养母床底饼干盒"
+      "周六回养家：王秀芬要奖金、骂她整容、抢手机、扇巴掌被她接住手腕；她拿走身份证搬出；回程刷到投注站新闻，柜台男生对镜头说不知道是谁中的，手摸着左手腕"
     ],
     "position": {
-      "scene": "临大3栋406阳台",
-      "story_time": "9月22日（周一）傍晚，离周四21:15开奖约75小时",
+      "scene": "临大3栋406卫生间",
+      "story_time": "9月25日（周四）21:30左右，刚中头奖",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
@@ -135,6 +153,10 @@
       {
         "chapter": 2,
         "summary": "校长室她只说调监控，画面证明对方先动手、她护着周小满；最后一次心声听出陆子昂怕西门监控，二段画面加三千四辛苦费钉死他；陆、赵记大过，十六人记过；她获见义勇为奖金五千，成大姐大；顶回养母；头奖号码到手。"
+      },
+      {
+        "chapter": 3,
+        "summary": "全校改口送零食；她借帽子口罩去最远的西郊老投注站，现金十块买头奖号码5倍；柜台寸头男生念号确认、看见她手腕疤，红字警告有人记住号码；周四开奖夜卫生间看全中，税后四千万，瞒着周小满；兑奖要身份证原件，证锁在养母饼干盒。"
       }
     ]
   },
@@ -147,12 +169,21 @@
       "status": "已埋",
       "summary": "陆子昂自称陆家的人（陆家嫡系），本章亮出来压人，没人拆",
       "updated_chapter": 1
+    },
+    "F002": {
+      "id": "F002",
+      "importance": "高",
+      "planned_resolution_chapter": 5,
+      "planted_chapter": 3,
+      "status": "已埋",
+      "summary": "程野在投注站柜台看见了她的号码和手腕的疤",
+      "updated_chapter": 3
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 2,
+  "last_committed_chapter": 3,
   "schema_version": 4,
-  "state_revision": 2,
+  "state_revision": 3,
   "timeline": {
     "E001": {
       "characters": [
@@ -212,6 +243,34 @@
       "reveal_status": "已揭示",
       "story_time": "9月22日18:00",
       "updated_chapter": 2
+    },
+    "E005": {
+      "characters": [
+        "江稚鱼",
+        "程野"
+      ],
+      "first_recorded_chapter": 3,
+      "id": "E005",
+      "objective_fact": "她在西郊投注站现金买福星彩一注5倍，程奶奶的孙子程野打票并看见她手腕疤",
+      "reader_knowledge": "读者知道柜台男生记住了她，不知其名",
+      "reveal_chapter": 3,
+      "reveal_status": "部分揭示",
+      "story_time": "9月23日（周二）上午",
+      "updated_chapter": 3
+    },
+    "E006": {
+      "characters": [
+        "江稚鱼",
+        "周小满"
+      ],
+      "first_recorded_chapter": 3,
+      "id": "E006",
+      "objective_fact": "开奖全中5注一等奖，税前五千万税后四千万；兑奖需本人身份证原件，证在王秀芬床底饼干盒",
+      "reader_knowledge": "读者全知；周小满以为她肚子疼",
+      "reveal_chapter": 3,
+      "reveal_status": "已揭示",
+      "story_time": "9月25日（周四）21:15",
+      "updated_chapter": 3
     }
   },
   "wordcount_records": {
@@ -234,6 +293,18 @@
         "min": 2000
       },
       "body_sha256": "f486dc800f4855bb4025e197152b69e7c980739bd7b36be199de784a6c3bc18b",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2500
+    },
+    "3": {
+      "actual": 2596,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "3d214b783fba264bfc2418b0f76a3fb1e65ab3bdd525cf453c9bf64881dbb2ac",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
