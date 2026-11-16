@@ -1,0 +1,51 @@
+{
+  "applied_transactions": {
+    "record:conversation-2026-11-16-comma": {
+      "digest": "6939e2bfc974b2609f4aeefe477e783afa19ad9dbbfb99fd36e0a66858504ef3",
+      "item_ids": [
+        "AP001"
+      ],
+      "revision": 1
+    }
+  },
+  "items": {
+    "AP001": {
+      "assertion": "短句和台词里少用逗号停顿，能一口气说完的不断开（如「我这个人记仇」）",
+      "confidence": "high",
+      "confirmation_count": 1,
+      "conflicts_with": [],
+      "created_revision": 1,
+      "evidence": [
+        {
+          "quote": "比如说像我这个人记仇，它中间这个逗号你就可以去掉，不然话还是会有一种 AI 感。",
+          "source_ref": "conversation:2026-11-16"
+        }
+      ],
+      "id": "AP001",
+      "importance": "high",
+      "kind": "prose_style",
+      "reason": "作者觉得多余的逗号停顿读起来有AI感",
+      "scope": {
+        "level": "global",
+        "value": null
+      },
+      "source": "explicit_user",
+      "status": "active",
+      "superseded_by": null,
+      "updated_revision": 1
+    }
+  },
+  "journal": [
+    {
+      "committed_at": "2026-11-16T14:40:18+00:00",
+      "revision": 1,
+      "summaries": [
+        "新增 AP001（active）：短句和台词里少用逗号停顿，能一口气说完的不断开（如「我这个人记仇」）"
+      ],
+      "transaction_id": "record:conversation-2026-11-16-comma"
+    }
+  ],
+  "next_item_number": 2,
+  "schema_version": 1,
+  "state_revision": 1
+}
