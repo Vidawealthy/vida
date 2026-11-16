@@ -1,0 +1,154 @@
+{
+  "book_title": "一打十七后，财阀亲爹来接我了",
+  "characters": {
+    "周小满": {
+      "abilities_resources": [
+        "无"
+      ],
+      "goal": "跟着江稚鱼",
+      "identity": "江稚鱼室友，怯、软",
+      "knowledge": [
+        "脑补她早查过陆子昂"
+      ],
+      "location": "临大3栋406",
+      "open_threads": [
+        "陆子昂可能转头盯上她"
+      ],
+      "relationships": [
+        "江稚鱼：好感60，崇拜",
+        "陆子昂：上学期被他交过补考费"
+      ],
+      "state": "崇拜她，担心陆子昂报复"
+    },
+    "江稚鱼": {
+      "abilities_resources": [
+        "偏爱系统Lv1，偏爱值300",
+        "头奖号码与倒计时",
+        "美貌B生长中",
+        "散打入门卡未用",
+        "全部家当37.5元"
+      ],
+      "goal": "改写原主结局，先拿下头奖并守住秘密",
+      "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
+      "knowledge": [
+        "原主全部记忆含未来结局",
+        "陆子昂是陆家远房穷亲戚、靠骗女生钱"
+      ],
+      "location": "临大3栋406宿舍楼下",
+      "open_threads": [
+        "三天后开奖，彩票怎么买怎么藏"
+      ],
+      "relationships": [
+        "周小满：室友，崇拜她",
+        "陆子昂：被她拆穿，好感-40"
+      ],
+      "state": "刚绑定偏偏，全系出名，陆子昂记恨她"
+    },
+    "陆子昂": {
+      "abilities_resources": [
+        "替人交补考费的好名声（已动摇）"
+      ],
+      "goal": "找回面子，继续骗女生",
+      "identity": "21岁会计系大三，冒充海城陆家嫡系",
+      "knowledge": [
+        "只当她走运撞破"
+      ],
+      "location": "临大",
+      "open_threads": [
+        "会报复她或换人下手"
+      ],
+      "relationships": [
+        "江稚鱼：好感-40"
+      ],
+      "state": "当众出丑，记恨江稚鱼"
+    }
+  },
+  "context": {
+    "active_character_names": [],
+    "continuity_risks": [
+      "家当37.5元=饭卡19.5+现金18（10+5+3个1元）",
+      "食堂有女生录了拆穿视频",
+      "美貌C→B慢慢长，几天到一周，不是一夜换脸"
+    ],
+    "long_term_constraints": [
+      "爽点要落在旁人反应链上（震惊→改口→讨好或害怕），不能只靠系统播报",
+      "系统、头奖、魂穿三个秘密不能被人确认；被三个人确认就受罚",
+      "原主的惨事只用闪回点到，不写露骨细节；所有感情线角色都是成年人",
+      "不写真实品牌、真实人物"
+    ],
+    "next_chapter_commitments": [
+      "她变装去外区（西郊）投注站买5倍，付现金十块；食堂视频在系里传开，众人改口"
+    ],
+    "position": {
+      "scene": "临大3栋女生宿舍楼下",
+      "story_time": "9月22日（周一）午后，离周四21:15开奖约81小时",
+      "volume": "第一卷·改命",
+      "volume_start_chapter": 1
+    },
+    "recent_chapters": [
+      {
+        "chapter": 1,
+        "summary": "江稚鱼魂穿醒在临大食堂，当众拆穿陆子昂冒充陆家嫡系、假澜庭表拼错字母，全食堂哄笑；偏偏绑定，偏爱值+300，新手大礼包到手：头奖号码确认、美貌点3点已用（C→B生长中）、散打入门卡未用；全部家当三十七块五。"
+      }
+    ]
+  },
+  "foreshadow": {
+    "F001": {
+      "id": "F001",
+      "importance": "中",
+      "planned_resolution_chapter": 17,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "陆子昂冒充海城陆家嫡系，住学校7栋四楼，假澜庭表拼成LANTIGN",
+      "updated_chapter": 1
+    }
+  },
+  "imported_through_chapter": 0,
+  "last_committed_chapter": 1,
+  "schema_version": 4,
+  "state_revision": 1,
+  "timeline": {
+    "E001": {
+      "characters": [
+        "江稚鱼",
+        "陆子昂",
+        "周小满"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E001",
+      "objective_fact": "28岁医美操盘手江稚鱼魂穿进19岁原主身体，带着原主全部记忆；偏爱系统绑定；她当众拆穿陆子昂",
+      "reader_knowledge": "读者知道她是魂穿、有系统、知道原主未来；食堂众人只当她细心、早查过陆子昂",
+      "reveal_chapter": 1,
+      "reveal_status": "部分揭示",
+      "story_time": "9月22日（周一）午饭",
+      "updated_chapter": 1
+    },
+    "E002": {
+      "characters": [
+        "江稚鱼"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E002",
+      "objective_fact": "新手大礼包：头奖号码（原主生日+406）确认，周四21:15开奖；美貌点3点用掉；散打入门卡收着",
+      "reader_knowledge": "读者知道三天后她能中福星彩一等奖",
+      "reveal_chapter": 1,
+      "reveal_status": "已揭示",
+      "story_time": "9月22日午后",
+      "updated_chapter": 1
+    }
+  },
+  "wordcount_records": {
+    "1": {
+      "actual": 2584,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "b41f5cf2b317be2821704778b02b66fa1dc317c375890f77fc0e0bc3d1391f3c",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    }
+  }
+}
