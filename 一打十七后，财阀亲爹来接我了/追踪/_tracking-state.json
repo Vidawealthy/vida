@@ -17,7 +17,7 @@
       "relationships": [
         "江稚鱼：好感85"
       ],
-      "state": "稚颜店长，预约爆满"
+      "state": "按名单回电话保预约"
     },
     "江稚鱼": {
       "abilities_resources": [
@@ -29,9 +29,10 @@
         "生活管家林姨",
         "澜庭长女项链",
         "立约一、立约二",
-        "稚颜（原老周诊所，有证）"
+        "稚颜（原老周诊所，有证）",
+        "镜头红利（上镜不掉分、停留翻倍）"
       ],
-      "goal": "冲百万，应对举报",
+      "goal": "查幕后，保客户，冲百万",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
@@ -56,7 +57,7 @@
         "沈既白：稚颜主诊医师（单箭头）",
         "温婉之：周末回家吃饭"
       ],
-      "state": "沈既白入伙，退款视频爆口碑，流水63.5万"
+      "state": "直播间被封七天，视频爆粉一百六十万，心态硬"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -150,19 +151,15 @@
       "事业线铁律：她不靠家族的公司、钱、人脉、名头做生意，否则美貌停长、光环冷却、隐藏任务作废"
     ],
     "next_chapter_commitments": [
-      "直播讲九块九被封七天，同行私信造谣；她出门十分钟回来兴奋，逆境任务；公开资质客人照常到店；生气不是经营动作，申诉也查自己；擦掉在线人数；困难是常态独白视频，粉丝翻倍，镜头红利；章尾举报的几家店出自同一家运营公司"
+      "核实运营公司背后是谁（不点名到底）；七天期满申诉结果与逆境任务结算；冲九十天百万"
     ],
     "position": {
-      "scene": "稚颜直播",
-      "story_time": "11月15日（周日）夜",
+      "scene": "稚颜",
+      "story_time": "11月18日",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 15,
-        "summary": "300元档：测评博主三万四项目单被她逐项标出，标题改成她没给我卖一个项目；同行让前台隔屏问鼻子，她用广角反杀；线上看不见脸，她写下6980元14天线下陪跑讲产品阶梯；十二个名额三分钟满，周太太买三个；沈既白来消息；名单最后是赵婧瑶。"
-      },
       {
         "chapter": 16,
         "summary": "10月27日开业排进中庭；赵婧瑶要插队笑阿姨，被周太太一句排队噎回；她卸妆点破闭口泛红；首日流水十八万二；11月9日结营学员讲变化，赵婧瑶素颜上镜好感变20，两清；太太团要三四万方案，没医生不做；沈既白送来意向书。"
@@ -170,6 +167,10 @@
       {
         "chapter": 17,
         "summary": "她先出三条条款，沈既白签字入伙；瑰丽三倍年薪挖他被挂断；妈妈送黑檀长桌吊灯触发依附预警，原车拉回；豪车女老板要叠加插队，医生只许光子，当场退三万四千八被拍，视频上热榜；预约八十个只接二十；流水63.5万；直播讲九块九，举报链接开始转。"
+      },
+      {
+        "chapter": 18,
+        "summary": "九块九的账被剪成攻击行业，集中举报封七天；客人被私信造谣；她出门十分钟由烦转兴奋，逆境任务；摆证后客人照常到店；认下说满的话；素颜独白视频爆，粉丝一百六十万，镜头红利；举报出自同一家运营公司。"
       }
     ]
   },
@@ -339,17 +340,35 @@
     "F019": {
       "id": "F019",
       "importance": "高",
-      "planned_resolution_chapter": 18,
+      "planned_resolution_chapter": 20,
       "planted_chapter": 17,
       "status": "已埋",
-      "summary": "医美老板群转发《关于大学城稚颜医美涉嫌违规经营的实名举报》",
-      "updated_chapter": 17
+      "summary": "举报导致直播限制七天，申诉已提交待结果",
+      "updated_chapter": 18
+    },
+    "F020": {
+      "id": "F020",
+      "importance": "高",
+      "planned_resolution_chapter": 22,
+      "planted_chapter": 18,
+      "status": "已埋",
+      "summary": "连续举报稚颜的几家店，宣传出自同一家运营公司，她让先核实",
+      "updated_chapter": 18
+    },
+    "F021": {
+      "id": "F021",
+      "importance": "中",
+      "planned_resolution_chapter": 20,
+      "planted_chapter": 18,
+      "status": "已埋",
+      "summary": "逆境任务七天期满结算（保住全部预约、完成申诉整改）",
+      "updated_chapter": 18
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 17,
+  "last_committed_chapter": 18,
   "schema_version": 4,
-  "state_revision": 17,
+  "state_revision": 18,
   "timeline": {
     "E001": {
       "characters": [
@@ -690,6 +709,20 @@
       "reveal_status": "已揭示",
       "story_time": "11月10日—15日",
       "updated_chapter": 17
+    },
+    "E025": {
+      "characters": [
+        "江稚鱼",
+        "周小满"
+      ],
+      "first_recorded_chapter": 18,
+      "id": "E025",
+      "objective_fact": "直播被封七天；谣言落空；独白视频爆，粉丝一百六十万；查到同一家运营公司",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 18,
+      "reveal_status": "已揭示",
+      "story_time": "11月15日—18日",
+      "updated_chapter": 18
     }
   },
   "wordcount_records": {
@@ -796,6 +829,18 @@
         "min": 2000
       },
       "body_sha256": "cd394cd9cea0a88bd532f6365c4e2ff10d85045ebe6eee4c26a2752182e38eda",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "18": {
+      "actual": 2333,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "acff9b7db0f79097973cae17ee1987345569e876fe3564ed95d5a7b6b2d8cd1e",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
