@@ -6,6 +6,13 @@
         "AP001"
       ],
       "revision": 1
+    },
+    "record:conversation-2026-11-17-xingyue-flow": {
+      "digest": "6a1765557cae63cc2a8da530fdcbff2c09d3e3b0ceaed796a058c6a6a15ff20c",
+      "item_ids": [
+        "AP002"
+      ],
+      "revision": 2
     }
   },
   "items": {
@@ -33,6 +40,31 @@
       "status": "active",
       "superseded_by": null,
       "updated_revision": 1
+    },
+    "AP002": {
+      "assertion": "先用星月头脑风暴发散再写；写完把框架给星月润色，再合回",
+      "confidence": "high",
+      "confirmation_count": 1,
+      "conflicts_with": [],
+      "created_revision": 2,
+      "evidence": [
+        {
+          "quote": "你每次都是先用头脑风暴和金手指去发散，发散完之后，你再按照这个去写。写完给他框架，框架写完之后，让他自己去润色，以后都按这个流程来",
+          "source_ref": "conversation:2026-11-17"
+        }
+      ],
+      "id": "AP002",
+      "importance": "high",
+      "kind": "workflow",
+      "reason": "作者以「以后都按这个流程来」明确长期流程；发散含金手指",
+      "scope": {
+        "level": "global",
+        "value": null
+      },
+      "source": "explicit_user",
+      "status": "active",
+      "superseded_by": null,
+      "updated_revision": 2
     }
   },
   "journal": [
@@ -43,9 +75,17 @@
         "新增 AP001（active）：短句和台词里少用逗号停顿，能一口气说完的不断开（如「我这个人记仇」）"
       ],
       "transaction_id": "record:conversation-2026-11-16-comma"
+    },
+    {
+      "committed_at": "2026-11-17T12:26:58+00:00",
+      "revision": 2,
+      "summaries": [
+        "新增 AP002（active）：先用星月头脑风暴发散再写；写完把框架给星月润色，再合回"
+      ],
+      "transaction_id": "record:conversation-2026-11-17-xingyue-flow"
     }
   ],
-  "next_item_number": 2,
+  "next_item_number": 3,
   "schema_version": 1,
-  "state_revision": 1
+  "state_revision": 2
 }
