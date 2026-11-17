@@ -17,7 +17,7 @@
       "relationships": [
         "江稚鱼：好感85"
       ],
-      "state": "管报名，第一期满员"
+      "state": "稚颜店长"
     },
     "江稚鱼": {
       "abilities_resources": [
@@ -31,7 +31,7 @@
         "立约一、立约二",
         "稚颜（原老周诊所，有证）"
       ],
-      "goal": "27号开业开营，找主诊医师",
+      "goal": "谈下沈既白，冲九十天百万",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
@@ -54,7 +54,7 @@
         "裴语棠：-85",
         "周太太与太太团：等她开店"
       ],
-      "state": "线下陪跑第一期满员，等开业"
+      "state": "稚颜开业爆单，第一期陪跑结营"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -148,19 +148,15 @@
       "事业线铁律：她不靠家族的公司、钱、人脉、名头做生意，否则美貌停长、光环冷却、隐藏任务作废"
     ],
     "next_chapter_commitments": [
-      "10月27日稚颜开业、陪跑开营；赵婧瑶来当学员；太太团到场；兑现体验官；主诊医师问题"
+      "她先出条款（医生可拒绝、无提成、病历归机构），沈既白签；瑰丽三倍年薪挖他被挂；亲妈送长桌吊灯依附预警退回；豪车客人插队叠加被拒退款被拍；399女生；口碑炸；章尾直播讲九块九，举报链接开始转"
     ],
     "position": {
-      "scene": "临江",
-      "story_time": "10月22日（周三）夜",
+      "scene": "稚颜",
+      "story_time": "11月9日（周日）",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 13,
-        "summary": "周五鹿梨直播二十万人，沈既白检查后说无任何手术痕迹；她回放执照担保原片，按约定逼鹿梨念更正置顶；关美颜讲骨相皮相和广角；立约二完成，美貌点+4偏爱值+2000；请沈既白被拒；小红薯挂1元连麦，登记过三千。"
-      },
       {
         "chapter": 14,
         "summary": "周六第一场1元连麦，申请破四千；换季泛红、修眉、购物清单划掉一半不推卡；心声听见面试需求，挪灯就回了气色，切片爆，粉丝过四十万；同行嘲讽；十二小时哑嗓按暂停算账，没排上全额退；挂出300元档，首批约满。"
@@ -168,6 +164,10 @@
       {
         "chapter": 15,
         "summary": "300元档：测评博主三万四项目单被她逐项标出，标题改成她没给我卖一个项目；同行让前台隔屏问鼻子，她用广角反杀；线上看不见脸，她写下6980元14天线下陪跑讲产品阶梯；十二个名额三分钟满，周太太买三个；沈既白来消息；名单最后是赵婧瑶。"
+      },
+      {
+        "chapter": 16,
+        "summary": "10月27日开业排进中庭；赵婧瑶要插队笑阿姨，被周太太一句排队噎回；她卸妆点破闭口泛红；首日流水十八万二；11月9日结营学员讲变化，赵婧瑶素颜上镜好感变20，两清；太太团要三四万方案，没医生不做；沈既白送来意向书。"
       }
     ]
   },
@@ -283,11 +283,11 @@
     "F013": {
       "id": "F013",
       "importance": "中",
-      "planned_resolution_chapter": 19,
+      "planned_resolution_chapter": 17,
       "planted_chapter": 10,
       "status": "已埋",
-      "summary": "周太太说她开店第一个去，太太团排队",
-      "updated_chapter": 10
+      "summary": "周太太和太太团来临江上陪跑，等有医生就做三四万方案",
+      "updated_chapter": 16
     },
     "F014": {
       "id": "F014",
@@ -301,11 +301,11 @@
     "F015": {
       "id": "F015",
       "importance": "中",
-      "planned_resolution_chapter": 19,
+      "planned_resolution_chapter": 16,
       "planted_chapter": 12,
-      "status": "已埋",
-      "summary": "稚颜一百个体验官名额已满，开业时要兑现",
-      "updated_chapter": 12
+      "status": "已回收",
+      "summary": "一百个体验官开业当天全到，换回三百一十二张月卡",
+      "updated_chapter": 16
     },
     "F016": {
       "id": "F016",
@@ -330,15 +330,15 @@
       "importance": "高",
       "planned_resolution_chapter": 16,
       "planted_chapter": 15,
-      "status": "已埋",
-      "summary": "赵婧瑶全款报了6980陪跑第一期",
-      "updated_chapter": 15
+      "status": "已回收",
+      "summary": "赵婧瑶全款上第一期陪跑，结营素颜上镜，好感-80→20，两清不做朋友",
+      "updated_chapter": 16
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 15,
+  "last_committed_chapter": 16,
   "schema_version": 4,
-  "state_revision": 15,
+  "state_revision": 16,
   "timeline": {
     "E001": {
       "characters": [
@@ -650,6 +650,21 @@
       "reveal_status": "已揭示",
       "story_time": "10月19-22日",
       "updated_chapter": 15
+    },
+    "E023": {
+      "characters": [
+        "江稚鱼",
+        "赵婧瑶",
+        "周小满"
+      ],
+      "first_recorded_chapter": 16,
+      "id": "E023",
+      "objective_fact": "稚颜开业首日流水18.2万；陪跑第一期结营；沈既白上门谈合作",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 16,
+      "reveal_status": "已揭示",
+      "story_time": "10月27日—11月9日",
+      "updated_chapter": 16
     }
   },
   "wordcount_records": {
@@ -732,6 +747,18 @@
         "min": 2000
       },
       "body_sha256": "99ed5d6faa631a2283b91e09c97a9bdfe797a9871e86e954de9d34b476f52f34",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "16": {
+      "actual": 2430,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "5f06d18d23db82c13afaa072007400a45d22514fe7f0e2def3a8844e9a1606b6",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
