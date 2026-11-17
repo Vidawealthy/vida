@@ -21,7 +21,7 @@
     },
     "江稚鱼": {
       "abilities_resources": [
-        "偏爱系统Lv2：心声、风险扫描剩2次、贵气红利；偏爱值10150；美貌点存3",
+        "偏爱系统Lv2：心声、风险扫描剩2次、贵气红利；偏爱值12150；美貌点存7",
         "散打卡精通（体力在练）",
         "美貌S",
         "四千万存款",
@@ -31,7 +31,7 @@
         "立约一、立约二",
         "稚颜（原老周诊所，有证）"
       ],
-      "goal": "周五直播鉴定收账；稚颜开业",
+      "goal": "接住三千个连麦，稚颜开业",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
@@ -54,7 +54,7 @@
         "裴语棠：-85",
         "周太太与太太团：等她开店"
       ],
-      "state": "打脸陆子昂，体验官满"
+      "state": "直播鉴定翻盘，起号，粉丝暴涨"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -148,19 +148,15 @@
       "事业线铁律：她不靠家族的公司、钱、人脉、名头做生意，否则美貌停长、光环冷却、隐藏任务作废"
     ],
     "next_chapter_commitments": [
-      "周五晚八点直播鉴定，沈既白当众说无任何手术痕迹，博主收回整容的话，立约二完成奖励翻倍；引出主诊医师"
+      "10月18日第一场1元10分钟连麦，排队四千多；女孩们问题具体讲不完意犹未尽（不哭不捣乱）；划购物清单不推卡；心声听见面试需求，切片爆；同行嘲讽；十二小时哑嗓按暂停算账；300元25分钟首批秒满"
     ],
     "position": {
-      "scene": "临大",
-      "story_time": "10月13日（周一）夜",
+      "scene": "临江",
+      "story_time": "10月17日（周五）深夜",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 10,
-        "summary": "澜岛醒来升Lv2、美貌S；铁律：靠家族创业就停美貌；亲爹送二十八家店、哥哥给人脉、妈妈给宣传，三连警告，她全拒；亲爹立规矩护她；她看出周太太填充移位，太太团排队；风口卡指向老周诊所，隐藏任务发布。"
-      },
       {
         "chapter": 11,
         "summary": "直升机落商场楼顶；瑰丽拓展经理压价看轻她；她讲清为何要这店，心声听见老周心愿，留小刘，老周卖她一百二十万；风险扫描扫出中介二十万；物业送五年续租；价目表上门路人问开业；程野扛设备；周小满当店长。"
@@ -168,6 +164,10 @@
       {
         "chapter": 12,
         "summary": "周一满校包养帖，陆子昂食堂阴阳；心声找到暗恋她的校园墙管理员，当众说出发帖号是陆子昂的；派出所情况说明一人两百；陆子昂删帖道歉，留校察看；体验官一百个九分四十一秒满；博主约周五直播鉴定，她回来。"
+      },
+      {
+        "chapter": 13,
+        "summary": "周五鹿梨直播二十万人，沈既白检查后说无任何手术痕迹；她回放执照担保原片，按约定逼鹿梨念更正置顶；关美颜讲骨相皮相和广角；立约二完成，美貌点+4偏爱值+2000；请沈既白被拒；小红薯挂1元连麦，登记过三千。"
       }
     ]
   },
@@ -231,9 +231,9 @@
       "importance": "高",
       "planned_resolution_chapter": 13,
       "planted_chapter": 7,
-      "status": "已埋",
-      "summary": "网红博主约周五晚八点直播，请沈既白当众鉴定她整没整，她回来；立约二剩二十五天",
-      "updated_chapter": 12
+      "status": "已回收",
+      "summary": "鹿梨直播当众收回假体指控、置顶更正七天，立约二完成",
+      "updated_chapter": 13
     },
     "F008": {
       "id": "F008",
@@ -306,12 +306,21 @@
       "status": "已埋",
       "summary": "稚颜一百个体验官名额已满，开业时要兑现",
       "updated_chapter": 12
+    },
+    "F016": {
+      "id": "F016",
+      "importance": "高",
+      "planned_resolution_chapter": 17,
+      "planted_chapter": 13,
+      "status": "已埋",
+      "summary": "沈既白拒绝当稚颜主诊医师：我不给网红店挂名",
+      "updated_chapter": 13
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 12,
+  "last_committed_chapter": 13,
   "schema_version": 4,
-  "state_revision": 12,
+  "state_revision": 13,
   "timeline": {
     "E001": {
       "characters": [
@@ -582,6 +591,19 @@
       "reveal_status": "已揭示",
       "story_time": "10月13日（周一）",
       "updated_chapter": 12
+    },
+    "E020": {
+      "characters": [
+        "江稚鱼"
+      ],
+      "first_recorded_chapter": 13,
+      "id": "E020",
+      "objective_fact": "直播鉴定无手术痕迹，鹿梨收回；她挂出1元连麦，登记过三千",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 13,
+      "reveal_status": "已揭示",
+      "story_time": "10月17日（周五）夜",
+      "updated_chapter": 13
     }
   },
   "wordcount_records": {
@@ -628,6 +650,18 @@
         "min": 2000
       },
       "body_sha256": "cdb9f6ff4cb54d8ad1ab3aaa4477837852a7265a845dc12e5d690d7f5df8509d",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "13": {
+      "actual": 2231,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "453139d277bff0cc400b9d81b1b36bca656bbf9e228bea4685ca0bcb67ed78df",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
