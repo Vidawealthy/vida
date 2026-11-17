@@ -17,7 +17,7 @@
       "relationships": [
         "江稚鱼：好感85"
       ],
-      "state": "稚颜店长"
+      "state": "稚颜店长，预约爆满"
     },
     "江稚鱼": {
       "abilities_resources": [
@@ -31,7 +31,7 @@
         "立约一、立约二",
         "稚颜（原老周诊所，有证）"
       ],
-      "goal": "谈下沈既白，冲九十天百万",
+      "goal": "冲百万，应对举报",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
@@ -52,9 +52,11 @@
         "裴时宴/温婉之/裴靖渊：好感100",
         "裴靖川：6",
         "裴语棠：-85",
-        "周太太与太太团：等她开店"
+        "周太太与太太团：等她开店",
+        "沈既白：稚颜主诊医师（单箭头）",
+        "温婉之：周末回家吃饭"
       ],
-      "state": "稚颜开业爆单，第一期陪跑结营"
+      "state": "沈既白入伙，退款视频爆口碑，流水63.5万"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -148,19 +150,15 @@
       "事业线铁律：她不靠家族的公司、钱、人脉、名头做生意，否则美貌停长、光环冷却、隐藏任务作废"
     ],
     "next_chapter_commitments": [
-      "她先出条款（医生可拒绝、无提成、病历归机构），沈既白签；瑰丽三倍年薪挖他被挂；亲妈送长桌吊灯依附预警退回；豪车客人插队叠加被拒退款被拍；399女生；口碑炸；章尾直播讲九块九，举报链接开始转"
+      "直播讲九块九被封七天，同行私信造谣；她出门十分钟回来兴奋，逆境任务；公开资质客人照常到店；生气不是经营动作，申诉也查自己；擦掉在线人数；困难是常态独白视频，粉丝翻倍，镜头红利；章尾举报的几家店出自同一家运营公司"
     ],
     "position": {
-      "scene": "稚颜",
-      "story_time": "11月9日（周日）",
+      "scene": "稚颜直播",
+      "story_time": "11月15日（周日）夜",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 14,
-        "summary": "周六第一场1元连麦，申请破四千；换季泛红、修眉、购物清单划掉一半不推卡；心声听见面试需求，挪灯就回了气色，切片爆，粉丝过四十万；同行嘲讽；十二小时哑嗓按暂停算账，没排上全额退；挂出300元档，首批约满。"
-      },
       {
         "chapter": 15,
         "summary": "300元档：测评博主三万四项目单被她逐项标出，标题改成她没给我卖一个项目；同行让前台隔屏问鼻子，她用广角反杀；线上看不见脸，她写下6980元14天线下陪跑讲产品阶梯；十二个名额三分钟满，周太太买三个；沈既白来消息；名单最后是赵婧瑶。"
@@ -168,6 +166,10 @@
       {
         "chapter": 16,
         "summary": "10月27日开业排进中庭；赵婧瑶要插队笑阿姨，被周太太一句排队噎回；她卸妆点破闭口泛红；首日流水十八万二；11月9日结营学员讲变化，赵婧瑶素颜上镜好感变20，两清；太太团要三四万方案，没医生不做；沈既白送来意向书。"
+      },
+      {
+        "chapter": 17,
+        "summary": "她先出三条条款，沈既白签字入伙；瑰丽三倍年薪挖他被挂断；妈妈送黑檀长桌吊灯触发依附预警，原车拉回；豪车女老板要叠加插队，医生只许光子，当场退三万四千八被拍，视频上热榜；预约八十个只接二十；流水63.5万；直播讲九块九，举报链接开始转。"
       }
     ]
   },
@@ -285,9 +287,9 @@
       "importance": "中",
       "planned_resolution_chapter": 17,
       "planted_chapter": 10,
-      "status": "已埋",
-      "summary": "周太太和太太团来临江上陪跑，等有医生就做三四万方案",
-      "updated_chapter": 16
+      "status": "已回收",
+      "summary": "太太团三四万方案排满沈既白两周",
+      "updated_chapter": 17
     },
     "F014": {
       "id": "F014",
@@ -312,9 +314,9 @@
       "importance": "高",
       "planned_resolution_chapter": 17,
       "planted_chapter": 13,
-      "status": "已埋",
-      "summary": "沈既白拒绝当主诊后发来：你终于发现，脸不能只活在屏幕里",
-      "updated_chapter": 15
+      "status": "已回收",
+      "summary": "沈既白签下三条条款入伙稚颜主诊，拒瑰丽三倍年薪",
+      "updated_chapter": 17
     },
     "F017": {
       "id": "F017",
@@ -333,12 +335,21 @@
       "status": "已回收",
       "summary": "赵婧瑶全款上第一期陪跑，结营素颜上镜，好感-80→20，两清不做朋友",
       "updated_chapter": 16
+    },
+    "F019": {
+      "id": "F019",
+      "importance": "高",
+      "planned_resolution_chapter": 18,
+      "planted_chapter": 17,
+      "status": "已埋",
+      "summary": "医美老板群转发《关于大学城稚颜医美涉嫌违规经营的实名举报》",
+      "updated_chapter": 17
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 16,
+  "last_committed_chapter": 17,
   "schema_version": 4,
-  "state_revision": 16,
+  "state_revision": 17,
   "timeline": {
     "E001": {
       "characters": [
@@ -665,6 +676,20 @@
       "reveal_status": "已揭示",
       "story_time": "10月27日—11月9日",
       "updated_chapter": 16
+    },
+    "E024": {
+      "characters": [
+        "江稚鱼",
+        "周小满"
+      ],
+      "first_recorded_chapter": 17,
+      "id": "E024",
+      "objective_fact": "沈既白入伙；退款视频上热榜；流水63.5万；举报链接开始转",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 17,
+      "reveal_status": "已揭示",
+      "story_time": "11月10日—15日",
+      "updated_chapter": 17
     }
   },
   "wordcount_records": {
@@ -759,6 +784,18 @@
         "min": 2000
       },
       "body_sha256": "5f06d18d23db82c13afaa072007400a45d22514fe7f0e2def3a8844e9a1606b6",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "17": {
+      "actual": 2261,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "cd394cd9cea0a88bd532f6365c4e2ff10d85045ebe6eee4c26a2752182e38eda",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
