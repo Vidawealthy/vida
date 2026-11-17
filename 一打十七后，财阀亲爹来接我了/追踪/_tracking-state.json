@@ -17,7 +17,7 @@
       "relationships": [
         "江稚鱼：好感85"
       ],
-      "state": "答应当稚颜店长"
+      "state": "稚颜店长，管体验官报名"
     },
     "江稚鱼": {
       "abilities_resources": [
@@ -31,13 +31,13 @@
         "立约一、立约二",
         "稚颜（原老周诊所，有证）"
       ],
-      "goal": "稚颜开业，九十天单月流水破百万",
+      "goal": "周五直播鉴定收账；稚颜开业",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
         "局是陆子昂雇的"
       ],
-      "location": "临江",
+      "location": "临大",
       "open_threads": [
         "诊所证四年、租约到明年三月",
         "返校换脸"
@@ -54,7 +54,7 @@
         "裴语棠：-85",
         "周太太与太太团：等她开店"
       ],
-      "state": "盘下店，周小满当店长"
+      "state": "打脸陆子昂，体验官满"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -92,7 +92,7 @@
       "relationships": [
         "江稚鱼：好感50"
       ],
-      "state": "帮她搬设备，嘴硬心软"
+      "state": "在食堂门口替她镇场"
     },
     "赵婧瑶": {
       "abilities_resources": [
@@ -138,7 +138,7 @@
       "闪回里原主的养母一律叫「她妈」，不暗示不是亲妈",
       "心声体验卡已用完（Lv2才解锁）；美貌点3到账未用",
       "原主左手腕疤：七岁考第二被衣架抽；原主奶茶店打工钱全给江耀祖",
-      "四千万（裴家不知）付了盘店定金；稚颜：一百二十万盘下，月卡399/月4次、不设咨询师、价目表上门；风险扫描剩2；头奖确认1/3；学校只知道家里人找来了、不知道裴家"
+      "稚颜：一百二十万盘下，两周后开业，月卡399/月4次，不设咨询师，体验官一百个已满；风险扫描剩2；头奖确认1/3；学校不知道裴家，她对外说跟朋友合伙开店；陆子昂留校察看"
     ],
     "long_term_constraints": [
       "爽点要落在旁人反应链上（震惊→改口→讨好或害怕），不能只靠系统播报",
@@ -148,19 +148,15 @@
       "事业线铁律：她不靠家族的公司、钱、人脉、名头做生意，否则美貌停长、光环冷却、隐藏任务作废"
     ],
     "next_chapter_commitments": [
-      "10月13日周一回学校，满墙包养帖，陆子昂食堂阴阳；心声找校园墙管理员当众说出账号是他的，摆出派出所一人两百；金句；体验官一百个十分钟抢光；学妹那句话；陆子昂删帖道歉处分升级；章尾博主约直播鉴定，她回来"
+      "周五晚八点直播鉴定，沈既白当众说无任何手术痕迹，博主收回整容的话，立约二完成奖励翻倍；引出主诊医师"
     ],
     "position": {
-      "scene": "临江",
-      "story_time": "10月11日（周六）夜",
+      "scene": "临大",
+      "story_time": "10月13日（周一）夜",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 9,
-        "summary": "傍晚到澜岛，母亲十九年第一次哭，父母满格各奖美貌点1（存3）；裴语棠-40戴长女项链；十九个房间，佣人改口叫她大小姐；二叔好感6，听到圣心医院茶停在嘴边；裴语棠说还一切，她说那你还吧，母亲亲手解下项链；偏爱值破万10150。"
-      },
       {
         "chapter": 10,
         "summary": "澜岛醒来升Lv2、美貌S；铁律：靠家族创业就停美貌；亲爹送二十八家店、哥哥给人脉、妈妈给宣传，三连警告，她全拒；亲爹立规矩护她；她看出周太太填充移位，太太团排队；风口卡指向老周诊所，隐藏任务发布。"
@@ -168,6 +164,10 @@
       {
         "chapter": 11,
         "summary": "直升机落商场楼顶；瑰丽拓展经理压价看轻她；她讲清为何要这店，心声听见老周心愿，留小刘，老周卖她一百二十万；风险扫描扫出中介二十万；物业送五年续租；价目表上门路人问开业；程野扛设备；周小满当店长。"
+      },
+      {
+        "chapter": 12,
+        "summary": "周一满校包养帖，陆子昂食堂阴阳；心声找到暗恋她的校园墙管理员，当众说出发帖号是陆子昂的；派出所情况说明一人两百；陆子昂删帖道歉，留校察看；体验官一百个九分四十一秒满；博主约周五直播鉴定，她回来。"
       }
     ]
   },
@@ -232,8 +232,8 @@
       "planned_resolution_chapter": 13,
       "planted_chapter": 7,
       "status": "已埋",
-      "summary": "网红医美博主拿执照担保她鼻子是假体，立约二一个月内让他当众收回",
-      "updated_chapter": 7
+      "summary": "网红博主约周五晚八点直播，请沈既白当众鉴定她整没整，她回来；立约二剩二十五天",
+      "updated_chapter": 12
     },
     "F008": {
       "id": "F008",
@@ -250,8 +250,8 @@
       "planned_resolution_chapter": 40,
       "planted_chapter": 8,
       "status": "已埋",
-      "summary": "校门口有人说她被包养，陆子昂带头",
-      "updated_chapter": 8
+      "summary": "包养流言：陆子昂承认发帖并删帖道歉，学校不知道裴家，流言余温仍在",
+      "updated_chapter": 12
     },
     "F010": {
       "id": "F010",
@@ -297,12 +297,21 @@
       "status": "已埋",
       "summary": "瑰丽临江拓展经理拍下稚颜价目表走了",
       "updated_chapter": 11
+    },
+    "F015": {
+      "id": "F015",
+      "importance": "中",
+      "planned_resolution_chapter": 19,
+      "planted_chapter": 12,
+      "status": "已埋",
+      "summary": "稚颜一百个体验官名额已满，开业时要兑现",
+      "updated_chapter": 12
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 11,
+  "last_committed_chapter": 12,
   "schema_version": 4,
-  "state_revision": 11,
+  "state_revision": 12,
   "timeline": {
     "E001": {
       "characters": [
@@ -558,6 +567,21 @@
       "reveal_status": "已揭示",
       "story_time": "10月11日（周六）",
       "updated_chapter": 11
+    },
+    "E019": {
+      "characters": [
+        "江稚鱼",
+        "陆子昂",
+        "周小满"
+      ],
+      "first_recorded_chapter": 12,
+      "id": "E019",
+      "objective_fact": "食堂打脸陆子昂（留校察看）；体验官一百个满；博主约周五直播鉴定",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 12,
+      "reveal_status": "已揭示",
+      "story_time": "10月13日（周一）",
+      "updated_chapter": 12
     }
   },
   "wordcount_records": {
@@ -592,6 +616,18 @@
         "min": 2000
       },
       "body_sha256": "a19cc017a947e4f1dcf8ade6aa23d2bf4dfc11226e7b5f351e71d333bdc228cb",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "12": {
+      "actual": 2583,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "cdb9f6ff4cb54d8ad1ab3aaa4477837852a7265a845dc12e5d690d7f5df8509d",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
