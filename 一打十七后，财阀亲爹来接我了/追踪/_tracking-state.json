@@ -5,39 +5,40 @@
       "abilities_resources": [
         "无"
       ],
-      "goal": "跟着江稚鱼",
+      "goal": "陪她逛街",
       "identity": "江稚鱼室友，怯软",
       "knowledge": [
         "亲历一打十七和校长室"
       ],
-      "location": "临大",
+      "location": "大学城商场",
       "open_threads": [
         "无"
       ],
       "relationships": [
         "江稚鱼：好感85"
       ],
-      "state": "当众作证，胆子大了"
+      "state": "发了她侧脸朋友圈，评论炸了"
     },
     "江稚鱼": {
       "abilities_resources": [
         "偏爱系统Lv1，偏爱值5850",
-        "散打卡精通（体力差，开始练）",
-        "美貌在长",
+        "散打卡精通（体力在练）",
+        "美貌A（生长中）",
         "四千万存款",
         "江景公寓一年使用权",
+        "生活管家林姨",
         "立约任务（王秀芬）"
       ],
-      "goal": "替程奶奶交手术费；等月度结算",
+      "goal": "盘下大学城诊所；守住秘密",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
         "局是陆子昂雇的"
       ],
-      "location": "临大体育馆门口",
+      "location": "大学城商场",
       "open_threads": [
-        "程奶奶差九万",
-        "10月1日结算"
+        "诊所证四年、租约到明年三月",
+        "返校换脸"
       ],
       "relationships": [
         "周小满：好感85，死心塌地",
@@ -47,7 +48,7 @@
         "校长40、辅导员30",
         "程野：好感30，共同保密人"
       ],
-      "state": "身家四千万，有了自己的家，入了散打社"
+      "state": "美貌长到A，有了管家，第一次有人照顾她"
     },
     "王秀芬": {
       "abilities_resources": [
@@ -131,7 +132,7 @@
       "闪回里原主的养母一律叫「她妈」，不暗示不是亲妈",
       "心声体验卡已用完（Lv2才解锁）；美貌点3到账未用",
       "原主左手腕疤：七岁考第二被衣架抽；原主奶茶店打工钱全给江耀祖",
-      "四千万已到账；住临大东门外江景公寓顶层（一年使用权）；奖金5000下周发；头奖确认1/3（程野）"
+      "四千万已到账，住临大东门外江景公寓顶层（一年使用权），林管家照料（胃不好）；奖金5000下周发；头奖确认1/3（程野）；穿奶白色羊毛外套"
     ],
     "long_term_constraints": [
       "爽点要落在旁人反应链上（震惊→改口→讨好或害怕），不能只靠系统播报",
@@ -140,19 +141,15 @@
       "不写真实品牌、真实人物"
     ],
     "next_chapter_commitments": [
-      "第二天一早去市一院住院处匿名交清程奶奶十二万；10月1日零点第一次偏爱结算；国庆和周小满逛街，记住大学城旁那家快倒闭的诊所"
+      "国庆返校，A级的脸被全校看见，「临大大姐大七天换头」上热搜、整容质疑冒头；王秀芬家门口来了问话的陌生人；海城一只杯子摔碎；章尾校门口一排黑车"
     ],
     "position": {
-      "scene": "临大体育馆门口",
-      "story_time": "9月29日（周一）晚，离10月1日零点结算51小时",
+      "scene": "大学城商场",
+      "story_time": "10月3日（国庆）晚",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 3,
-        "summary": "全校改口送零食；她借帽子口罩去最远的西郊老投注站，现金十块买头奖号码5倍；柜台寸头男生念号确认、看见她手腕疤，红字警告有人记住号码；周四开奖夜卫生间看全中，税后四千万，瞒着周小满；兑奖要身份证原件，证锁在养母饼干盒。"
-      },
       {
         "chapter": 4,
         "summary": "周六回养家，王秀芬要五千、骂她整容、抠手机壳、扬手扇来，她半空接住，拿回手机、剪刀丢进垃圾桶、从饼干盒拿走身份证、搬出；触发不讨好任务（奖励未揭晓）和立约任务（第一天）；公交上新闻里寸头男生说不知道，拇指摸手腕。"
@@ -160,6 +157,10 @@
       {
         "chapter": 5,
         "summary": "周一戴口罩匿名兑奖，保安弯腰、主任亲自接待，拒绝露面采访捐款，四千万到账；不讨好任务奖励揭晓：江景公寓顶层一年使用权，当天搬入；散打社长程野认出她手腕疤，确认1/3，说那张票我替你守着；她入社站桩半小时；记下程奶奶手术缺九万。"
+      },
+      {
+        "chapter": 6,
+        "summary": "住院处被嫌寒酸，她刷十二万匿名交清程奶奶手术费，程野没看见她；买了新外套；10月1日偏爱档结算，美貌B→A，惊喜生活管家林姨；诊所门口问证照租约，中介改口江小姐；周小满发她侧脸，评论「这是江稚鱼？？」"
       }
     ]
   },
@@ -206,14 +207,23 @@
       "planned_resolution_chapter": 16,
       "planted_chapter": 5,
       "status": "已埋",
-      "summary": "程奶奶市一院换瓣膜还差九万，她记进备忘录",
-      "updated_chapter": 5
+      "summary": "她匿名交清程奶奶十二万，备注「一个欠他人情的人」，程野不知道是谁",
+      "updated_chapter": 6
+    },
+    "F006": {
+      "id": "F006",
+      "importance": "高",
+      "planned_resolution_chapter": 14,
+      "planted_chapter": 6,
+      "status": "已埋",
+      "summary": "大学城商场一楼快倒闭的诊所：证还有四年、租约到明年三月、设备买断；她拍了转让启事",
+      "updated_chapter": 6
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 5,
+  "last_committed_chapter": 6,
   "schema_version": 4,
-  "state_revision": 5,
+  "state_revision": 6,
   "timeline": {
     "E001": {
       "characters": [
@@ -343,6 +353,46 @@
       "reveal_status": "已揭示",
       "story_time": "9月29日（周一）",
       "updated_chapter": 5
+    },
+    "E010": {
+      "characters": [
+        "江稚鱼"
+      ],
+      "first_recorded_chapter": 6,
+      "id": "E010",
+      "objective_fact": "她在市一院住院处匿名交清程奶奶十二万",
+      "reader_knowledge": "读者全知，程野不知道是谁",
+      "reveal_chapter": 6,
+      "reveal_status": "已揭示",
+      "story_time": "9月30日（周二）早",
+      "updated_chapter": 6
+    },
+    "E011": {
+      "characters": [
+        "江稚鱼"
+      ],
+      "first_recorded_chapter": 6,
+      "id": "E011",
+      "objective_fact": "第一次偏爱结算偏爱档：美貌B→A、散打经验、生活管家林姨",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 6,
+      "reveal_status": "已揭示",
+      "story_time": "10月1日零点",
+      "updated_chapter": 6
+    },
+    "E012": {
+      "characters": [
+        "江稚鱼",
+        "周小满"
+      ],
+      "first_recorded_chapter": 6,
+      "id": "E012",
+      "objective_fact": "她和周小满逛大学城商场，看中快倒闭的诊所；周小满发朋友圈",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 6,
+      "reveal_status": "已揭示",
+      "story_time": "10月3日",
+      "updated_chapter": 6
     }
   },
   "wordcount_records": {
@@ -401,6 +451,14 @@
         "min": 2000
       },
       "body_sha256": "5bfc9272375dd4ac1410f4565dfee960c4fc2c03261e411126aa8580b2046ee1",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "6": {
+      "actual": 2577,
+      "body_sha256": "fc51e58d583ad0b01d5eb83dd1ff4ff1e6baa32a228b23b5f7c9799d48326b60",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
