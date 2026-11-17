@@ -21,22 +21,24 @@
     },
     "江稚鱼": {
       "abilities_resources": [
-        "偏爱系统Lv1，偏爱值5200",
+        "偏爱系统Lv1，偏爱值5700",
         "散打卡精通（体力差）",
-        "美貌点3未用",
-        "头奖彩票（税后四千万）藏手机壳背面",
-        "现金8块，奖金5000下周发"
+        "美貌在长（黄气褪、背直）",
+        "头奖彩票+身份证",
+        "现金8块，奖金5000下周发",
+        "不讨好任务奖励未揭晓",
+        "立约任务（王秀芬）"
       ],
-      "goal": "周六回家拿回身份证，匿名兑奖",
+      "goal": "周一匿名兑奖",
       "identity": "魂穿的28岁医美操盘手，身体是19岁临大会计系大一原主",
       "knowledge": [
         "原主全部记忆含未来结局",
         "局是陆子昂雇的"
       ],
-      "location": "临大3栋406",
+      "location": "回临大的公交上",
       "open_threads": [
-        "身份证锁在王秀芬饼干盒",
-        "柜台男生记住了她的号码"
+        "投注站男生认出她了",
+        "匿名兑奖"
       ],
       "relationships": [
         "周小满：好感85，死心塌地",
@@ -45,26 +47,26 @@
         "王秀芬：-70，被挂电话",
         "校长40、辅导员30"
       ],
-      "state": "中了税后四千万的头奖，只有她和偏偏知道"
+      "state": "和养家撕破脸搬出，拿到身份证"
     },
     "王秀芬": {
       "abilities_resources": [
         "锁着原主身份证和户口本的铁皮饼干盒"
       ],
-      "goal": "拿到五千奖金",
+      "goal": "等女儿服软",
       "identity": "原主的妈（养母），菜市场摆摊",
       "knowledge": [
         "只知女儿打架又得奖"
       ],
       "location": "临江老城区家中",
       "open_threads": [
-        "周六要钱"
+        "会来学校闹"
       ],
       "relationships": [
         "江稚鱼：-70",
         "江耀祖：偏心儿子"
       ],
-      "state": "第一次被女儿挂电话，命她周六回家"
+      "state": "第一次被女儿制住、往后退，断她生活费"
     },
     "程野": {
       "abilities_resources": [
@@ -73,7 +75,8 @@
       "goal": "不明",
       "identity": "西郊投注站程奶奶的孙子，寸头眉骨带疤（本章未露名）",
       "knowledge": [
-        "她的号码和手腕疤"
+        "她的号码和手腕疤",
+        "中奖的是她"
       ],
       "location": "西郊投注站",
       "open_threads": [
@@ -82,7 +85,7 @@
       "relationships": [
         "江稚鱼：好感0"
       ],
-      "state": "记住了戴口罩买生日号5倍的女生和她手腕的疤"
+      "state": "新闻里对镜头说不知道是谁中的，拇指摸着手腕——他认出来了"
     },
     "赵婧瑶": {
       "abilities_resources": [
@@ -128,7 +131,7 @@
       "闪回里原主的养母一律叫「她妈」，不暗示不是亲妈",
       "心声体验卡已用完（Lv2才解锁）；美貌点3到账未用",
       "原主左手腕疤：七岁考第二被衣架抽；原主奶茶店打工钱全给江耀祖",
-      "票藏手机壳背面；现金剩8块；奖金5000下周发，王秀芬要她周六交回"
+      "身份证贴身、票在手机壳背面；现金8块；奖金5000下周发；已搬出养家无生活费"
     ],
     "long_term_constraints": [
       "爽点要落在旁人反应链上（震惊→改口→讨好或害怕），不能只靠系统播报",
@@ -137,19 +140,15 @@
       "不写真实品牌、真实人物"
     ],
     "next_chapter_commitments": [
-      "周六回养家：王秀芬要奖金、骂她整容、抢手机、扇巴掌被她接住手腕；她拿走身份证搬出；回程刷到投注站新闻，柜台男生对镜头说不知道是谁中的，手摸着左手腕"
+      "周一戴口罩匿名领奖，四千万到账；揭晓不讨好任务奖励；散打社社长程野认出她手腕的疤，说那张票我替你守着"
     ],
     "position": {
-      "scene": "临大3栋406卫生间",
-      "story_time": "9月25日（周四）21:30左右，刚中头奖",
+      "scene": "回临大的公交上",
+      "story_time": "9月27日（周六）傍晚",
       "volume": "第一卷·改命",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 1,
-        "summary": "江稚鱼魂穿醒在被十七人堵在B栋楼梯、汤浇头按跪那刻；偏偏绑定，散打卡精通生效；她站监控下等对方先动手，一打十七全轻伤；心声听出陆子昂买的局，跟班喊出一人两百；她报警存监控；偏爱值+3000，心声卡剩1次；广播叫她去校长室。"
-      },
       {
         "chapter": 2,
         "summary": "校长室她只说调监控，画面证明对方先动手、她护着周小满；最后一次心声听出陆子昂怕西门监控，二段画面加三千四辛苦费钉死他；陆、赵记大过，十六人记过；她获见义勇为奖金五千，成大姐大；顶回养母；头奖号码到手。"
@@ -157,6 +156,10 @@
       {
         "chapter": 3,
         "summary": "全校改口送零食；她借帽子口罩去最远的西郊老投注站，现金十块买头奖号码5倍；柜台寸头男生念号确认、看见她手腕疤，红字警告有人记住号码；周四开奖夜卫生间看全中，税后四千万，瞒着周小满；兑奖要身份证原件，证锁在养母饼干盒。"
+      },
+      {
+        "chapter": 4,
+        "summary": "周六回养家，王秀芬要五千、骂她整容、抠手机壳、扬手扇来，她半空接住，拿回手机、剪刀丢进垃圾桶、从饼干盒拿走身份证、搬出；触发不讨好任务（奖励未揭晓）和立约任务（第一天）；公交上新闻里寸头男生说不知道，拇指摸手腕。"
       }
     ]
   },
@@ -178,12 +181,30 @@
       "status": "已埋",
       "summary": "程野在投注站柜台看见了她的号码和手腕的疤",
       "updated_chapter": 3
+    },
+    "F003": {
+      "id": "F003",
+      "importance": "中",
+      "planned_resolution_chapter": 5,
+      "planted_chapter": 4,
+      "status": "已埋",
+      "summary": "不讨好任务「这一次，不交」奖励未揭晓",
+      "updated_chapter": 4
+    },
+    "F004": {
+      "id": "F004",
+      "importance": "高",
+      "planned_resolution_chapter": 23,
+      "planted_chapter": 4,
+      "status": "已埋",
+      "summary": "立约任务：让王秀芬亲眼看见她硬了多少天，奖励翻倍",
+      "updated_chapter": 4
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 3,
+  "last_committed_chapter": 4,
   "schema_version": 4,
-  "state_revision": 3,
+  "state_revision": 4,
   "timeline": {
     "E001": {
       "characters": [
@@ -271,6 +292,34 @@
       "reveal_status": "已揭示",
       "story_time": "9月25日（周四）21:15",
       "updated_chapter": 3
+    },
+    "E007": {
+      "characters": [
+        "江稚鱼",
+        "王秀芬",
+        "江耀祖"
+      ],
+      "first_recorded_chapter": 4,
+      "id": "E007",
+      "objective_fact": "她回养家拿走身份证并搬出；王秀芬断她生活费",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 4,
+      "reveal_status": "已揭示",
+      "story_time": "9月27日（周六）下午",
+      "updated_chapter": 4
+    },
+    "E008": {
+      "characters": [
+        "程野"
+      ],
+      "first_recorded_chapter": 4,
+      "id": "E008",
+      "objective_fact": "西郊投注站中一等奖上本地新闻，程野对镜头说不知道",
+      "reader_knowledge": "读者知道他认出了她",
+      "reveal_chapter": 4,
+      "reveal_status": "部分揭示",
+      "story_time": "9月27日傍晚",
+      "updated_chapter": 4
     }
   },
   "wordcount_records": {
@@ -309,6 +358,18 @@
       "resolution": "within_user_band",
       "status": "internal_pass",
       "target": 2500
+    },
+    "4": {
+      "actual": 2231,
+      "author_range": {
+        "max": 2600,
+        "min": 2000
+      },
+      "body_sha256": "c5c93e724fc022ef7c7dbb1e21f237f81bb97c3f034b5f245020729f53741742",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
     }
   }
 }
