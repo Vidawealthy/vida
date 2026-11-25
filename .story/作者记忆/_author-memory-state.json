@@ -13,6 +13,13 @@
         "AP002"
       ],
       "revision": 2
+    },
+    "record:conversation-2026-11-25-short-paragraphs": {
+      "digest": "6d4cfb3b913b36731e50a9d08ce1c18217679d8de571914150f8c8d5f3a9a9e8",
+      "item_ids": [
+        "AP003"
+      ],
+      "revision": 3
     }
   },
   "items": {
@@ -65,6 +72,31 @@
       "status": "active",
       "superseded_by": null,
       "updated_revision": 2
+    },
+    "AP003": {
+      "assertion": "网文正文一段话不要太多，基本一句一段，读者看着不累",
+      "confidence": "high",
+      "confirmation_count": 1,
+      "conflicts_with": [],
+      "created_revision": 3,
+      "evidence": [
+        {
+          "quote": "以后写网文都是这样，一段话不要太多 最后一句一句成段，这样读者看着不累",
+          "source_ref": "conversation:2026-11-25"
+        }
+      ],
+      "id": "AP003",
+      "importance": "high",
+      "kind": "prose_style",
+      "reason": "作者用“以后写网文都是这样”声明长期规则，取代本书文风.md 11/17 动作链合并成段的写法",
+      "scope": {
+        "level": "global",
+        "value": null
+      },
+      "source": "explicit_user",
+      "status": "active",
+      "superseded_by": null,
+      "updated_revision": 3
     }
   },
   "journal": [
@@ -83,9 +115,17 @@
         "新增 AP002（active）：先用星月头脑风暴发散再写；写完把框架给星月润色，再合回"
       ],
       "transaction_id": "record:conversation-2026-11-17-xingyue-flow"
+    },
+    {
+      "committed_at": "2026-11-25T06:47:12+00:00",
+      "revision": 3,
+      "summaries": [
+        "新增 AP003（active）：网文正文一段话不要太多，基本一句一段，读者看着不累"
+      ],
+      "transaction_id": "record:conversation-2026-11-25-short-paragraphs"
     }
   ],
-  "next_item_number": 3,
+  "next_item_number": 4,
   "schema_version": 1,
-  "state_revision": 2
+  "state_revision": 3
 }
